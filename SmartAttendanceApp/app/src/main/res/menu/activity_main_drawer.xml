@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mark_id"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Mark Attendance" />
+        <item
+            android:id="@+id/prev_id"
+            android:icon="?android:attr/actionModePasteDrawable"
+            android:title="See previous record" />
+    </group>
+
+</menu>
